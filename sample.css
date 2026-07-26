@@ -1,0 +1,95 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background: #1f2937;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* Form */
+form {
+    width: 350px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+/* Blog Cards */
+.blog-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.blog-card {
+    width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+}
+
+.blog-card h3 {
+    margin-bottom: 10px;
+}
+
+.blog-card p {
+    color: #555;
+}
